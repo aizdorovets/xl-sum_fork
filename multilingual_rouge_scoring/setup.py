@@ -11,7 +11,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=['multilingual_rouge_score'],
-    package_dir = {'multilingual_rouge_score':'multilingual_rouge_score'},
+    package_dir = {'multilingual_rouge_score':''},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: Apache Software License"
