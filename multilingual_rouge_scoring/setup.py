@@ -10,8 +10,8 @@ setuptools.setup(
     description="Pure python implementation of ROUGE-1.5.5.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    packages=['multilingual_rouge_score'],
-    package_dir = {'multilingual_rouge_score':''},
+    packages=['rouge_score'],
+    package_dir = {'rouge_score':''},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: Apache Software License"
