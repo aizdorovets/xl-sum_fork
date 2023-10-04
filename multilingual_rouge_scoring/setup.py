@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="multilingual_rouge_score",
+    name="multilingual_rouge_scoring",
     author="Google LLC",
     author_email="no-reply@google.com",
     description="Pure python implementation of ROUGE-1.5.5.",
@@ -14,7 +14,7 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: Apache Software License"
     ],
-    packages=setuptools.find_packages(),
+    packages=["multilingual_rouge_scoring"],
     install_requires=[
         "absl-py",
         "nltk",
