@@ -14,8 +14,8 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: Apache Software License"
     ],
-    packages=["multilingual_rouge_scoring"],
-    package_dir = {'multilingual_rouge_scoring':''},
+    packages=["rouge_score"],
+    package_dir = {"rouge_score":""},
     install_requires=[
         "absl-py",
         "nltk",
