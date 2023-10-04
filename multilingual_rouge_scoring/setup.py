@@ -14,7 +14,7 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: Apache Software License"
     ],
-    packages=find_packages(),
+    packages=setuptools.find_packages(),
     install_requires=[
         "absl-py",
         "nltk",
